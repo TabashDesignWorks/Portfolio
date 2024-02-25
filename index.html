@@ -537,82 +537,123 @@
 </script>
 
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Contact Me
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
+   <!-- ======= Contact Section ======= -->
+<section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+  <div class="overlay-mf"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="contact-mf">
+          <div id="contact" class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="title-box-2">
+                  <h5 class="title-left">
+                    Contact Me
+                  </h5>
+                </div>
+                <div>
+                  <form id="contact-form" method="post" class="php-email-form">
+                    <div class="row">
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                         </div>
-                      </form>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your Email" required>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="_subject" id="subject" placeholder="Subject" required>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12 text-center my-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                      </div>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        Feel free to reach out to discuss potential opportunities for collaboration or employment. Whether you're seeking assistance with product development, mechanical design, 
-                        or project consulting, I'm here to provide innovative solutions tailored to your needs.
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> Boynton Beach/Orlando, FL</li>
-                        <li><span class="bi bi-phone"></span> (561) 501-8399</li>
-                        <li><span class="bi bi-envelope"></span> jtabascio@gmail.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                          <li><a href="https://www.facebook.com/julian.tabascio/" target="_blank"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                          <li><a href="https://www.linkedin.com/in/tabashdesignworks/" target="_blank"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                      </ul>
-                  </div>
-                  
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="title-box-2 pt-4 pt-md-0">
+                  <h5 class="title-left">
+                    Get in Touch
+                  </h5>
+                </div>
+                <div class="more-info">
+                  <p class="lead">
+                    Feel free to reach out to discuss potential opportunities for collaboration or employment. Whether you're seeking assistance with product development, mechanical design, 
+                    or project consulting, I'm here to provide innovative solutions tailored to your needs.
+                  </p>
+                  <ul class="list-ico">
+                    <li><span class="bi bi-geo-alt"></span> Boynton Beach/Orlando, FL</li>
+                    <li><span class="bi bi-phone"></span> (561) 501-8399</li>
+                    <li><span class="bi bi-envelope"></span> jtabascio@gmail.com</li>
+                  </ul>
+                </div>
+                <div class="socials">
+                  <ul>
+                    <li><a href="https://www.facebook.com/julian.tabascio/" target="_blank"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/tabashdesignworks/" target="_blank"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
 
-  </main><!-- End #main -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const contactForm = document.getElementById("contact-form");
+
+  contactForm.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    const formData = new FormData(this);
+
+    fetch("https://formspree.io/f/xgegyagj", {
+      method: "POST",
+      headers: {
+        "Accept": "application/json"
+      },
+      body: formData
+    })
+    .then(response => {
+      if (response.ok) {
+        // Form submission successful
+        this.reset(); // Clear the form
+        alert("Your message has been sent. Thank you!");
+      } else {
+        // Form submission failed
+        alert("Error: Form submission failed. Please try again later.");
+      }
+    })
+    .catch(error => {
+      console.error("Error:", error);
+      alert("Error: An unexpected error occurred. Please try again later.");
+    });
+  });
+});
+</script>
+
 
   <!-- ======= Footer ======= -->
   <footer>
