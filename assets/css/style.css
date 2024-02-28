@@ -611,6 +611,7 @@ a:hover {
   }
 }
 
+
 /**
 * Mobile Navigation 
 */
@@ -725,7 +726,10 @@ a:hover {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
-
+/* Style for LinkedIn icon */
+.navbar ul li:last-child a .bi-linkedin {
+  font-size: 24px; /* Adjust the font size to make the icon bigger */
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
