@@ -663,7 +663,9 @@ a:hover {
   background-color: #ffffff;
   overflow-y: auto;
   transition: 0.3s;
+  border-radius: 10px; /* Adjust the value to change the roundness */
 }
+
 
 .navbar-mobile>ul>li {
   padding: 0;
