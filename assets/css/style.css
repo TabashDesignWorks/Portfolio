@@ -613,9 +613,10 @@ a:hover {
 
 
 /**
-* Mobile Navigation 
-*/
-.mobile-nav-toggle {
+ * Mobile Navigation 
+ */
+
+ .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
   cursor: pointer;
@@ -640,10 +641,10 @@ a:hover {
   top: 0;
   right: 0;
   left: 0;
-  bottom: 0;
   background: rgba(78, 78, 78, 0.9);
   transition: 0.3s;
   z-index: 999;
+  height: calc(100vh - 55px); /* Fixed height */
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -657,15 +658,13 @@ a:hover {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 250px;
   left: 15px;
   padding: 10px 0;
   background-color: #ffffff;
   overflow-y: auto;
   transition: 0.3s;
-  border-radius: 20px; /* Adjust the value to change the roundness */
+  border-radius: 20px; /* Rounded corners */
 }
-
 
 .navbar-mobile>ul>li {
   padding: 0;
@@ -728,10 +727,12 @@ a:hover {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+
 /* Style for LinkedIn icon */
 .navbar ul li:last-child a .bi-linkedin {
   font-size: 24px; /* Adjust the font size to make the icon bigger */
 }
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
